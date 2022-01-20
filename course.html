@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World's biggest University</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header-ser-1">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">मुख्यपृष्ठ</a></li>
+            <li><a href="#course">योजना</a></li>
+            <li><a href="ourteam.html">आमचे सहकारी</a></li>
+            <li><a href="blog.html">माहिती</a></li>
+            <!-- <li><a href="#testimonial">नियमावली</a></li> -->
+            <li id="calculator">
+              <a href="calculator.html">ईएमआय कॅल्क्युलेटर</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>ठेव योजना</h1>
+    </section>
+
+    <!-- --------------------Course-------------------------------------- -->
+
+    <section class="course">
+      <h1 class="headings">ठेव योजना</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad
+        laboriosam id? Quam dolorum et alias deserunt, voluptatum laboriosam
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>मासिक वर्गणी</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            exercitationem rem ducimus similique repellendus consequatur
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>सभासद ठेव</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            exercitationem rem ducimus similique repellendus consequatur
+          </p>
+        </div>
+        <!-- <div class="course-col">
+          <h3>Funds remittance</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            exercitationem rem ducimus similique repellendus consequatur
+          </p>
+        </div> -->
+      </div>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>मुदत ठेव</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            exercitationem rem ducimus similique repellendus consequatur
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>आवर्त ठेव</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            exercitationem rem ducimus similique repellendus consequatur
+          </p>
+        </div>
+        <!-- <div class="course-col">
+          <h3>Funds remittance</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            exercitationem rem ducimus similique repellendus consequatur
+          </p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- --------------------facilities----------------------------- -->
+
+    <!-- <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quia
+        exercitationem non laudantium, nemo doloremque neque aut quibusdam hic
+      </p>
+
+      <div class="row">
+        <div class="facilites-cols">
+          <img src="eduford_img/library.png" />
+          <h3>ABCEDFRG</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos sapiente consectetur similique repellendus laudantium
+          </p>
+        </div>
+
+        <div class="facilites-cols">
+          <img src="eduford_img/basketball.png" />
+          <h3>ABCDERG</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos sapiente consectetur similique repellendus laudantium
+          </p>
+        </div>
+
+        <div class="facilites-cols">
+          <img src="eduford_img/cafeteria.png" />
+          <h3>ABCEDFRG</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos sapiente consectetur similique repellendus laudantium
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ---------------------Footer---------------------------------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
+        Delectus iure assumenda, consectetur laboriosam eum molestias iste. Odio
+        distinctio.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Developed by @ Avinash And Saish</p>
+    </section>
+
+    <!-- ---------------------------Javascript for toggle Menu------------------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+    </script>
+  </body>
+</html>
